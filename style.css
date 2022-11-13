@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    display: block;
+    width: 5%;
+    margin: 10px auto 10px auto;
+}

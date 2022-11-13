@@ -3,8 +3,48 @@
     padding: 0px;
 }
 
-.logo {
+.logo-header {
     display: block;
     width: 5%;
     margin: 10px auto 10px auto;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin: 10px auto 10px auto;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+}
+
+li::marker{
+    content:"";
+}
+
+footer {
+    display: flex;
+
+}
+
+footer p{
+    margin: 10px 10px 0 0;
+}
+
+.logo-footer {
+    display: block;
+    width: 3%;
+    margin: 10px auto 10px 10px;
 }

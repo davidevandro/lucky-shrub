@@ -55,6 +55,34 @@ li a {
     color: white;
 }
 
+.leaf-drops{
+    display: flex;
+    justify-content: space-around;
+    z-index:1;
+}
+
+.fa-leaf{
+    color:#009193;
+    
+}
+
+.t1{
+    animation: leafdrop 10s linear 0s infinite;
+}
+
+.t2{
+    animation: leafdrop 10s linear 2s infinite;
+}
+
+@keyframes leafdrop{
+    from {
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: translate3d(0,800px,0);
+    }
+}
+
 li::marker{
     content:"";
 }
@@ -71,7 +99,7 @@ li::marker{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    filter: opacity(50%) contrast(50%)
+    filter: opacity(50%) contrast(50%);
 }
 
 .promo-header{

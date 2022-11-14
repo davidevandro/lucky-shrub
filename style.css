@@ -84,6 +84,35 @@ li::marker{
     display: flex;
     width: 90%;
     margin: 20px auto 10px auto;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+article{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:  #009193;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.info-header{
+    width: 90%;
+    font-family: 'Cantora One', sans-serif;
+    align-self: left;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.info-img{
+    width: 90%;
+}
+
+.info-text{
+    width: 90%;
+    margin: 10px 0 10px 0;
+    color: white
 }
 
 footer {

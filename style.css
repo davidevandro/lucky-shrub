@@ -37,7 +37,11 @@ li:hover {
     background-color: #04c8cb;
 }
 
-a {
+li a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -95,6 +99,7 @@ article{
     background-color:  #009193;
     border-radius: 10px;
     align-items: center;
+    position: relative;
 }
 
 .info-header{
@@ -111,21 +116,40 @@ article{
 
 .info-text{
     width: 90%;
-    margin: 10px 0 10px 0;
-    color: white
+    margin: 10px 0 20px 0;
+    color: white;
+    font-size: 12px;
+}
+
+.info-more {
+    width: 90%;
+    color: white;
+    font-size: 12px;
+    align-self:left;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 10px;
 }
 
 footer {
     display: flex;
-
-}
-
-footer p{
-    margin: 10px 10px 0 0;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    justify-content: flex-start;
 }
 
 .logo-footer {
     display: block;
-    width: 3%;
+    width: 20px;
+    object-fit: cover;
     margin: 10px auto 10px 10px;
 }
+
+footer p{
+    width: 50%;
+    margin: 10px 10px 0 0;
+    font-family: 'Cantora One', sans-serif;
+    border-top: 1px solid #000000;
+    text-align: right;
+}
+
